@@ -22,7 +22,7 @@ var directors = [
         "image": "assets/images/greta.jpg",
         "name": "Greta Gerwig",
         "description": "Greta Gerwig has become a real trailblazer for women in the film industry. After a stellar 2023, when her blockbuster, Barbie, painted the world pink, the director's stock has never been higher. She has turned in winner after winner since 2017's Lady Bird. She then followed the successful A24 movie with the acclaimed Little Women and then Barbie, which, at $1.4 billion worldwide, is the 14th highest-grossing movie of all time.",
-        "page": "Greta.html"
+        "page": "greta.html"
     },
     {
         "image": "assets/images/wes.jpg",
