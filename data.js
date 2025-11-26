@@ -1,18 +1,18 @@
 var filmStrip = [
     {
-        "src": "assets/images/herosmall.png",
+        "src": "assets/images/fsoppenheimer.jpg",
         "alt": "Image 1"
     },
     {
-        "src": "assets/images/herosmall.png",
+        "src": "assets/images/fskillbill.jpg",
         "alt": "Image 2"
     },
     {
-        "src": "assets/images/herosmall.png",
+        "src": "assets/images/fsmoonrise.jpg",
         "alt": "Image 3"
     },
     {
-        "src": "assets/images/herosmall.png",
+        "src": "assets/images/fsokja.jpg",
         "alt": "Image 4"
     }
 ];
