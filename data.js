@@ -254,3 +254,48 @@ var nolanMovies = [
         "description": "Two rival magicians engage in a dangerous competition fueled by obsession and deceit."
     }
 ];
+
+var specialMentions = [
+    {
+        "image": "assets/images/whiplash.jpg",
+        "name": "Whiplash (2014)",
+        "writer": "Damien Chazelle",
+        "stars": "Miles Teller, J.K. Simmons, Melissa Benoist",
+        "description": "A promising young drummer enrolls at a cut-throat music conservatory where his dreams of greatness are mentored by an instructor who will stop at nothing to realize a student's potential."
+    },
+    {
+        "image": "assets/images/three.jpg",
+        "name": "3 Idiots (2009)",
+        "writer": "Rajkumar Hirani",
+        "stars": "Aamir Khan, Madhavan, Mona Singh",
+        "description": "Two friends are searching for their long lost companion. They revisit their college days and recall the memories of their friend who inspired them to think differently, even as the rest of the world called them \"idiots\"."
+    },
+    {
+        "image": "assets/images/dead.webp",
+        "name": "Dead Poets Society (1989)",
+        "writer": "Peter Weir",
+        "stars": "Robin Williams, Robert Leonard, Ethan Hawke",
+        "description": "Maverick teacher John Keating returns in 1959 to a prestigious boys' boarding school, using poetry to embolden his pupils to new heights of self-expression."
+    },
+    {
+        "image": "assets/images/girl.webp",
+        "name": "Girl, Interrupted (1999)",
+        "writer": "James Mangold",
+        "stars": "Winona Ryder, Angelina Jolie, Clea DuVall",
+        "description": "Directionless teenager Susanna is rushed to a mental institution after a supposed suicide attempt, where she befriends a group of troubled women who deeply influence her life."
+    },
+    {
+        "image": "assets/images/eternal.webp",
+        "name": "Eternal Sunshine of the Spotless Mind (2004)",
+        "writer": "Michel Gondry",
+        "stars": "Jim Carrey, Kate Winslet, Tom Wilkinson",
+        "description": "When their relationship turns sour, a couple undergoes a medical procedure to erase each other from their memories forever."
+    },
+    {
+        "image": "assets/images/black.webp",
+        "name": "Black Swan (2010)",
+        "writer": "Darren Aronofsky",
+        "stars": "Natalie Portman, Mila Kunis, Vincent Cassel",
+        "description": "A talented but unstable ballerina is pushed to the breaking point as she strives for perfection, causing her grip on reality to unravel."
+    }
+];
