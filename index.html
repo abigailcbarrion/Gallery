@@ -69,6 +69,7 @@
             </div>
         </div>
     </div>
+
     <div class="container-fluid py-5 my-5" style="background:#35342f;">
         <div class="row gy-4 justify-content-center mx-1 px-2 px-md-3 py-1 mx-xl-0 px-xl-1" id="filmRow">
         </div>
@@ -87,21 +88,24 @@
 
     <div id="directors"></div>
 
-    <div class="container text-center mt-5 pt-5" id="moviesheader">
-        <div class="row">
-            <div class="col-12 col-md-8 mx-auto">
-                <h1 class="fw-bold display-5" style="color:#fff59d;">
-                    Beautifully Crafted Films
-                </h1>
-                <small>
-                    Here are some notable films I found beautifully directed, crafted with perfect storytelling,
-                    casting, performances, and cinematography.</small>
-                <hr class="mx-auto mt-2" style="width:90%; border:1.5px solid #fff59d; opacity:1;">
+    <div class="container-fluid p-0 position-relative" id="moviesheader">
+        <div class="row m-0">
+            <div class="col p-0">
+                <img class="img-fluid w-100 d-none d-md-block" src="assets/images/whiplash2full.jpg" alt="Hero"
+                    style="object-fit:cover; mask-image: linear-gradient(180deg, transparent 0%, black 30%, transparent 100%);">
+                <img class="img-fluid w-100 d-block d-md-none" src="assets/images/whiplash2small.jpg" alt="Hathaway"
+                    style="object-fit:cover; mask-image: linear-gradient(180deg, transparent 0%, black 30%, transparent 100%);">
+
+                <div class="position-absolute bottom-0 start-50 translate-middle-x w-100 px-4 pb-4 text-center">
+                    <h1 class="display-5 display-lg-2 fw-bold" style="color:#FFF487;">Beautifully Crafted Films</h1>
+                    <small class="text-light d-block">Here are some notable films I found beautifully directed, crafted
+                        with perfect storytelling, casting, performances, and cinematography.</small>
+                </div>
             </div>
         </div>
     </div>
-
-    <div class="container-fluid mb-5">
+    
+    <div class="container-fluid mb-5 mt-3 mt-md-5">
         <div class="row justify-content-center gap-3" id="movies"></div>
     </div>
 
@@ -128,13 +132,12 @@
         </div>
     </div>
 
-
     <!-- footer -->
     <div class="container-fluid mt-auto py-3 text-dark" style="background-color: #fff59d;">
         <div class="container">
             <div class="row">
                 <div class="col text-center">
-                    <h6 class="fw-bold mb-1">Iconic Directors of Modern Cinema their Works</h6>
+                    <h6 class="fw-bold mb-1">Iconic Directors of Modern Cinema and their Works</h6>
                     <small>
                         Disclaimer: I do not own any of the images or information presented on this page. All rights
                         belong to their respective owners.
@@ -144,7 +147,6 @@
             </div>
         </div>
     </div>
-
 
     <script src="data.js"></script>
     <script>
@@ -159,13 +161,12 @@
             </div>
             `;
         }
-
         var container = document.getElementById("directors");
         for (var i = 0; i < directors.length; i++) {
             var imgOrder = (i % 2 === 0) ? "order-md-1" : "order-md-2";
             var textOrder = (i % 2 === 0) ? "order-md-2" : "order-md-1";
             container.innerHTML += `
-    <div class="container my-5 py-5">
+    <div class="container my-0 my-lg-5 py-5">
         <div class="row align-items-center g-3">
             <div class="col-12 col-md-6 d-flex justify-content-center  ${imgOrder}">
                 <div class="w-100 px-3 px-md-0" style="max-width:420px;">
@@ -222,7 +223,6 @@
     </div>
     `;
         }
-
         document.addEventListener("click", function (e) {
             if (e.target.closest("[data-bs-toggle='collapse']")) {
                 let btn = e.target.closest("[data-bs-toggle='collapse']");
@@ -238,8 +238,6 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
         crossorigin="anonymous"></script>
-
-
 </body>
 
 </html>
